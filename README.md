@@ -7,7 +7,7 @@ This repository documents my personal homelab environment and the hands-on proje
 ![Proxmox Server](screenshots/proxmox-server.png)
 
 ### Ubuntu Server Deployment
-![Ubuntu Server Creation](screenshots/Ubuntu%20Server%20Creation.png)
+![Ubuntu Server Install](screenshots/Ubuntu%20Server%20Install.png)
 
 ### Ubuntu Static IP Configuration
 ![Ubuntu Static IP](screenshots/Ubuntu%20Server%20-%20Static%20IP%20Creation.png)
