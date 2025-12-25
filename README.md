@@ -15,23 +15,38 @@ This system serves as the core virtualization platform for the homelab, providin
 *Microsoft Windows Server deployed as a virtual machine within the Proxmox environment.* 
 This installation serves as a foundation for practicing Windows-based server administration, including role configuration, system updates, and enterprise service management.
 
-### Active Directory Domain Services (AD DS) Installation
+## Active Directory Domain Services (AD DS)
+
+### AD DS Installation
 ![Active Directory Installation](screenshots/active-directory-role-installation.png)
 
-*Active Directory Domain Services installed on Windows Server using PowerShell.*
-This step enables centralized identity and access management, providing the foundation for domain creation, user and group administration, and Group Policy enforcement in an enterprise environment.
+Active Directory Domain Services installed on Windows Server using PowerShell to enable centralized identity and access management.
 
-### Active Directory Service Verification
+---
+
+### AD Service Verification
 ![Active Directory NTDS Service Running](screenshots/active-directory-ntds-service-running.png)
 
-*Active Directory Domain Services verified as running using PowerShell.*
-The `Get-Service NTDS` command confirms that the NTDS service is active, validating a successful AD DS installation and readiness for domain promotion and identity management tasks.
+The NTDS service verified as running via PowerShell, confirming a successful AD DS installation.
 
-### Active Directory Domain Creation and Verification
+---
+
+### Domain Creation and Verification
 ![Active Directory Domain Details](screenshots/active-directory-domain-created.png)
 
-*Active Directory domain successfully created and verified using PowerShell.*  
-The `Get-ADDomain` output confirms domain configuration details, including domain name, domain controllers, FSMO roles, and directory structure, validating a fully functional Active Directory environment.
+Windows Server promoted to a domain controller and Active Directory domain created and validated using PowerShell.
+
+---
+
+### AD Object Management (Users, Groups, and OUs)
+![Active Directory OUs](screenshots/active-directory-ou-structure.png)
+
+Organizational Units created to separate domain controllers and user accounts in a scalable structure.
+
+![Active Directory Groups](screenshots/active-directory-group-membership.png)
+
+Security groups created and managed using PowerShell, with users assigned to role-based groups to demonstrate RBAC.
+
 
 
 ### Ubuntu Server Deployment
