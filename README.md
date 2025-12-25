@@ -21,6 +21,12 @@ This installation serves as a foundation for practicing Windows-based server adm
 *Active Directory Domain Services installed on Windows Server using PowerShell.*
 This step enables centralized identity and access management, providing the foundation for domain creation, user and group administration, and Group Policy enforcement in an enterprise environment.
 
+### Active Directory Service Verification
+![Active Directory NTDS Service Running](screenshots/active-directory-ntds-service-running.png)
+
+*Active Directory Domain Services verified as running using PowerShell.*
+The `Get-Service NTDS` command confirms that the NTDS service is active, validating a successful AD DS installation and readiness for domain promotion and identity management tasks.
+
 
 ### Ubuntu Server Deployment
 ![Ubuntu Server Install](screenshots/Ubuntu%20Server%20Install.png)
