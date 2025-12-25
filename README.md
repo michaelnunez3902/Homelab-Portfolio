@@ -10,6 +10,7 @@ This system serves as the core virtualization platform for the homelab, providin
 
 ### Windows Server Installation
 ![Windows Server Installation](screenshots/windows-server-installation.png)
+
 *Microsoft Windows Server deployed as a virtual machine within the Proxmox environment.* 
 This installation serves as a foundation for practicing Windows-based server administration, including role configuration, system updates, and enterprise service management.
 
