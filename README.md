@@ -13,9 +13,12 @@ This system serves as the core virtualization platform for the homelab, providin
 ### Ubuntu Server Deployment
 ![Ubuntu Server Install](screenshots/Ubuntu%20Server%20Install.png)
 *Ubuntu Server LTS virtual machine deployed for service hosting and administration.*
+This VM is used for Linux server administration practice, service hosting, and command-line management.
+
 
 
 ### Ubuntu Static IP Configuration
 ![Ubuntu Static IP](screenshots/Ubuntu%20Server%20-%20Static%20IP%20Creation.png)
 *Static IP configuration applied to ensure consistent network access.*
+This setup mirrors real-world server environments where predictable addressing is required for reliability and management.
 
