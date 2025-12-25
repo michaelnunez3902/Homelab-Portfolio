@@ -6,6 +6,8 @@ This repository documents my personal homelab environment and the hands-on proje
 ### Proxmox Host
 ![Proxmox Server](screenshots/proxmox-server.png)
 *Primary Proxmox VE host used to manage virtual machines and containers.*
+This system serves as the core virtualization platform for the homelab, providing centralized VM management, snapshots, and resource allocation.
+
 
 
 ### Ubuntu Server Deployment
