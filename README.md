@@ -22,3 +22,8 @@ This setup mirrors real-world server environments where predictable addressing i
 ![Portainer Install](screenshots/portainer-install-docker.png)
 *Portainer CE deployed as a Docker container on Ubuntu Server to manage and monitor containerized services.*
 The installation includes persistent volumes, automatic restart configuration, and exposed management ports for secure web-based administration.
+
+### Portainer Container Management
+![Portainer Container Dashboard](screenshots/portainer-dashboard-containers.png)
+*Portainer CE dashboard displaying the Docker environment running on Ubuntu Server.*
+This interface is used to manage containers, images, volumes, and networks, providing visibility into container status, health, and resource usage.
