@@ -10,6 +10,10 @@ This repository documents my personal homelab environment and the hands-on proje
 
 ### Ubuntu Server Deployment
 ![Ubuntu Server Install](screenshots/Ubuntu%20Server%20Install.png)
+*Ubuntu Server LTS virtual machine deployed for service hosting and administration.*
+
 
 ### Ubuntu Static IP Configuration
 ![Ubuntu Static IP](screenshots/Ubuntu%20Server%20-%20Static%20IP%20Creation.png)
+*Static IP configuration applied to ensure consistent network access.*
+
