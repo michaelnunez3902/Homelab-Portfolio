@@ -18,6 +18,11 @@ This VM is used for Linux server administration practice, service hosting, and c
 *Static IP configuration applied to ensure consistent network access.*
 This setup mirrors real-world server environments where predictable addressing is required for reliability and management.
 
+### Docker Installation Verification
+![Docker Hello World](screenshots/docker-hello-world-test.png)
+*Docker installation validated using the official `hello-world` container.*
+This test confirms successful communication between the Docker client and daemon, image retrieval from Docker Hub, container execution, and output streaming to the terminal.
+
 ### Portainer Deployment via Docker
 ![Portainer Install](screenshots/portainer-install-docker.png)
 *Portainer CE deployed as a Docker container on Ubuntu Server to manage and monitor containerized services.*
