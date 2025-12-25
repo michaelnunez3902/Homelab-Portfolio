@@ -1,24 +1,26 @@
 # Homelab Portfolio
 
-This repository documents my personal homelab environment, built to simulate a real-world enterprise IT infrastructure using virtualization, Windows and Linux servers, centralized identity management, and containerized services.
+This repository documents my personal homelab, which I built to gain hands-on experience with real-world IT systems and workflows. The lab is designed to reflect how small-to-mid-sized enterprise environments are actually deployed, managed, and maintained, using virtualization, Windows and Linux servers, centralized identity management, and containerized services.
+
+The goal of this homelab isn’t just to spin things up, but to understand how systems are installed, verified, administered, and documented in a professional IT environment.
 
 ---
 
-## Lab Overview & Objectives
+## Lab Purpose & Goals
 
-This homelab is designed to simulate a small-to-mid-sized enterprise IT environment, combining on-premises infrastructure, identity management, Linux services, and containerized workloads. The goal of the lab is to gain hands-on experience with real-world system administration tasks while following industry best practices for deployment, verification, and documentation.
+I built this homelab to strengthen my system administration and cybersecurity skills by working through real configuration tasks instead of relying only on theory or guided labs. Everything in this environment is intentionally set up, tested, and validated to mirror how infrastructure is handled in production.
 
-Key objectives of this homelab include:
-- Deploying and managing virtualized infrastructure using Proxmox VE
-- Administering both Windows and Linux server operating systems
-- Implementing centralized identity and access management with Active Directory
-- Practicing role-based access control (RBAC) using users, groups, and OUs
-- Deploying and validating containerized services using Docker
-- Managing containers through Portainer for visibility and lifecycle control
-- Verifying configurations using command-line tools and PowerShell
-- Documenting workflows to mirror real-world operational practices
+The main goals of this lab are to:
+- Build and manage virtualized infrastructure using Proxmox VE
+- Administer both Windows and Linux server operating systems
+- Implement centralized identity and access management with Active Directory
+- Practice role-based access control (RBAC) using users, groups, and OUs
+- Deploy and validate containerized services using Docker
+- Manage containers using Portainer for visibility and lifecycle control
+- Verify configurations using command-line tools and PowerShell
+- Document workflows in a way that reflects real operational practices
 
-This lab emphasizes **installation, verification, and administration**, reflecting how systems are built, validated, and maintained in professional IT environments.
+Overall, this lab emphasizes **installing services, verifying they work, and managing them over time**, which matches how systems are handled in real IT roles.
 
 ---
 
@@ -27,14 +29,14 @@ This lab emphasizes **installation, verification, and administration**, reflecti
 ### Proxmox Virtualization Host
 ![Proxmox Server](screenshots/proxmox-server.png)
 
-Proxmox VE serves as the core virtualization platform for the homelab, providing centralized virtual machine management, snapshots, and resource allocation for all hosted systems.
+Proxmox VE serves as the core platform for the homelab. It hosts and manages all virtual machines, providing centralized control, snapshots, and resource allocation across the environment.
 
 ---
 
 ### Windows Server Deployment
 ![Windows Server Installation](screenshots/windows-server-installation.png)
 
-Microsoft Windows Server deployed as a virtual machine within the Proxmox environment. This system provides the foundation for enterprise identity services and Windows-based server administration.
+Windows Server deployed as a virtual machine within Proxmox. This system provides the foundation for enterprise identity services and Windows-based server administration tasks.
 
 ---
 
@@ -43,46 +45,46 @@ Microsoft Windows Server deployed as a virtual machine within the Proxmox enviro
 ### AD DS Installation
 ![Active Directory Installation](screenshots/active-directory-role-installation.png)
 
-Active Directory Domain Services installed on Windows Server using PowerShell to enable centralized identity and access management.
+Active Directory Domain Services installed on Windows Server using PowerShell to enable centralized authentication and identity management.
 
 ---
 
 ### AD Service Verification
 ![Active Directory NTDS Service Running](screenshots/active-directory-ntds-service-running.png)
 
-The NTDS service verified as running via PowerShell, confirming a successful AD DS installation.
+The NTDS service verified as running through PowerShell, confirming that Active Directory was installed correctly and is functioning as expected.
 
 ---
 
 ### Domain Creation and Verification
 ![Active Directory Domain Details](screenshots/active-directory-domain-created.png)
 
-Windows Server promoted to a domain controller, with the Active Directory domain created and validated using PowerShell.
+The Windows Server was promoted to a domain controller, and a new Active Directory domain was created and validated using PowerShell.
 
 ---
 
 ### AD Object Management (Users, Groups, and OUs)
 ![Active Directory OUs](screenshots/active-directory-ou-structure.png)
 
-Organizational Units created to logically separate domain controllers and user accounts in a scalable Active Directory structure.
+Organizational Units were created to logically separate domain controllers and user accounts, reflecting how Active Directory is structured in real environments.
 
 ![Active Directory Groups](screenshots/active-directory-group-membership.png)
 
-Security groups created and managed using PowerShell, with users assigned to role-based groups to demonstrate RBAC and centralized permission management.
+Security groups were created and managed using PowerShell, with users assigned to role-based groups to demonstrate RBAC and centralized permission management.
 
 ---
 
 ### Ubuntu Server Deployment
 ![Ubuntu Server Install](screenshots/Ubuntu%20Server%20Install.png)
 
-Ubuntu Server LTS deployed as a virtual machine for Linux server administration, service hosting, and command-line management.
+Ubuntu Server LTS deployed as a virtual machine for Linux system administration, service hosting, and command-line management tasks.
 
 ---
 
 ### Ubuntu Static IP Configuration
 ![Ubuntu Static IP](screenshots/Ubuntu%20Server%20-%20Static%20IP%20Creation.png)
 
-A static IP configuration applied to ensure consistent network access, reflecting real-world server environments where predictable addressing is required.
+A static IP configuration applied to ensure consistent and predictable network access, similar to how servers are configured in production environments.
 
 ---
 
@@ -91,18 +93,18 @@ A static IP configuration applied to ensure consistent network access, reflectin
 ### Docker Installation Verification
 ![Docker Hello World](screenshots/docker-hello-world-test.png)
 
-Docker installation verified using the official `hello-world` container, confirming successful client–daemon communication, image retrieval, and container execution.
+Docker installation verified using the official `hello-world` container to confirm proper client–daemon communication, image retrieval, and container execution.
 
 ---
 
 ### Portainer Deployment via Docker
 ![Portainer Install](screenshots/portainer-install-docker.png)
 
-Portainer CE deployed as a Docker container on Ubuntu Server to provide web-based container management with persistent storage and automatic restart configuration.
+Portainer CE deployed as a Docker container on Ubuntu Server to provide a web-based interface for managing containerized services, with persistent storage and automatic restart enabled.
 
 ---
 
 ### Portainer Container Management
 ![Portainer Container Dashboard](screenshots/portainer-dashboard-containers.png)
 
-Portainer dashboard displaying the Docker environment, enabling centralized monitoring and management of containers, images, volumes, and networks.
+Portainer dashboard showing the running Docker environment, allowing centralized visibility and management of containers, images, volumes, and networks.
