@@ -1,6 +1,23 @@
 # Homelab-Portfolio
 This repository documents my personal homelab environment and the hands-on projects I’ve built to develop practical IT systems administration and cybersecurity skills. The lab is designed to simulate real-world enterprise environments, allowing safe testing, troubleshooting, hardening, and documentation of systems.
 
+## Lab Overview & Objectives
+
+This homelab is designed to simulate a small-to-mid-sized enterprise IT environment, combining on-premises infrastructure, identity management, Linux services, and containerized workloads. The goal of the lab is to gain hands-on experience with real-world system administration tasks while following industry best practices for deployment, validation, and documentation.
+
+Key objectives of this homelab include:
+- Deploying and managing virtualized infrastructure using Proxmox VE
+- Administering both Windows and Linux server operating systems
+- Implementing centralized identity and access management with Active Directory
+- Practicing role-based access control (RBAC) using users, groups, and OUs
+- Deploying and validating containerized services using Docker
+- Managing containers through Portainer for visibility and lifecycle control
+- Verifying configurations using command-line tools and PowerShell
+- Documenting each step to reflect real-world operational workflows
+
+This lab emphasizes **installation, verification, and administration**, mirroring how systems are built, validated, and maintained in professional IT environments.
+
+
 ## Lab Screenshots
 
 ### Proxmox Host
