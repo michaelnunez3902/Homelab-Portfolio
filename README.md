@@ -19,6 +19,6 @@ This VM is used for Linux server administration practice, service hosting, and c
 This setup mirrors real-world server environments where predictable addressing is required for reliability and management.
 
 ### Portainer Deployment via Docker
-![Portainer Install](screenshots/Portainer%20Install-Docker.png)
+![Portainer Install](screenshots/portainer-install-docker.png)
 *Portainer CE deployed as a Docker container on Ubuntu Server to manage and monitor containerized services.*
 The installation includes persistent volumes, automatic restart configuration, and exposed management ports for secure web-based administration.
