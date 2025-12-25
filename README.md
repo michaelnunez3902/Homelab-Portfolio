@@ -8,17 +8,17 @@ This repository documents my personal homelab environment and the hands-on proje
 *Primary Proxmox VE host used to manage virtual machines and containers.*
 This system serves as the core virtualization platform for the homelab, providing centralized VM management, snapshots, and resource allocation.
 
-
-
 ### Ubuntu Server Deployment
 ![Ubuntu Server Install](screenshots/Ubuntu%20Server%20Install.png)
 *Ubuntu Server LTS virtual machine deployed for service hosting and administration.*
 This VM is used for Linux server administration practice, service hosting, and command-line management.
-
-
 
 ### Ubuntu Static IP Configuration
 ![Ubuntu Static IP](screenshots/Ubuntu%20Server%20-%20Static%20IP%20Creation.png)
 *Static IP configuration applied to ensure consistent network access.*
 This setup mirrors real-world server environments where predictable addressing is required for reliability and management.
 
+### Portainer Deployment via Docker
+![Portainer Install](screenshots/Portainer%20Install.png)
+*Portainer CE deployed as a Docker container on Ubuntu Server to manage and monitor containerized services.*
+The installation includes persistent volumes, automatic restart configuration, and exposed management ports for secure web-based administration.
