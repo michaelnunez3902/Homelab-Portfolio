@@ -64,17 +64,14 @@ This setup mirrors real-world server environments where predictable addressing i
 ### Docker Installation Verification
 ![Docker Hello World](screenshots/docker-hello-world-test.png)
 
-*Docker installation validated using the official `hello-world` container.*
-This test confirms successful communication between the Docker client and daemon, image retrieval from Docker Hub, container execution, and output streaming to the terminal.
+Docker installation verified using the official `hello-world` container, confirming successful client–daemon communication, image retrieval, and container execution.
 
 ### Portainer Deployment via Docker
 ![Portainer Install](screenshots/portainer-install-docker.png)
 
-*Portainer CE deployed as a Docker container on Ubuntu Server to manage and monitor containerized services.*
-The installation includes persistent volumes, automatic restart configuration, and exposed management ports for secure web-based administration.
+Portainer CE deployed as a Docker container on Ubuntu Server to provide web-based container management with persistent storage and automatic restart configuration.
 
 ### Portainer Container Management
 ![Portainer Container Dashboard](screenshots/portainer-dashboard-containers.png)
 
-*Portainer CE dashboard displaying the Docker environment running on Ubuntu Server.*
-This interface is used to manage containers, images, volumes, and networks, providing visibility into container status, health, and resource usage.
+Portainer dashboard displaying the Docker environment, enabling centralized monitoring and management of containers, images, volumes, and networks.
