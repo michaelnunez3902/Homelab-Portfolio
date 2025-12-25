@@ -8,6 +8,12 @@ This repository documents my personal homelab environment and the hands-on proje
 *Primary Proxmox VE host used to manage virtual machines and containers.*
 This system serves as the core virtualization platform for the homelab, providing centralized VM management, snapshots, and resource allocation.
 
+### Windows Server Installation
+![Windows Server Installation](screenshots/windows-server-installation.png)
+*Microsoft Windows Server deployed as a virtual machine within the Proxmox environment.* 
+This installation serves as a foundation for practicing Windows-based server administration, including role configuration, system updates, and enterprise service management.
+
+
 ### Ubuntu Server Deployment
 ![Ubuntu Server Install](screenshots/Ubuntu%20Server%20Install.png)
 *Ubuntu Server LTS virtual machine deployed for service hosting and administration.*
