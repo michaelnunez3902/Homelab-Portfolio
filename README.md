@@ -27,6 +27,12 @@ This step enables centralized identity and access management, providing the foun
 *Active Directory Domain Services verified as running using PowerShell.*
 The `Get-Service NTDS` command confirms that the NTDS service is active, validating a successful AD DS installation and readiness for domain promotion and identity management tasks.
 
+### Active Directory Domain Creation and Verification
+![Active Directory Domain Details](screenshots/active-directory-domain-created.png)
+
+*Active Directory domain successfully created and verified using PowerShell.*  
+The `Get-ADDomain` output confirms domain configuration details, including domain name, domain controllers, FSMO roles, and directory structure, validating a fully functional Active Directory environment.
+
 
 ### Ubuntu Server Deployment
 ![Ubuntu Server Install](screenshots/Ubuntu%20Server%20Install.png)
