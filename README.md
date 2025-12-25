@@ -15,6 +15,13 @@ This system serves as the core virtualization platform for the homelab, providin
 *Microsoft Windows Server deployed as a virtual machine within the Proxmox environment.* 
 This installation serves as a foundation for practicing Windows-based server administration, including role configuration, system updates, and enterprise service management.
 
+### Active Directory Domain Services (AD DS) Installation
+![Active Directory Installation](screenshots/active-directory-role-installation.png)
+
+*Active Directory Domain Services installed on Windows Server using PowerShell.*
+This step enables centralized identity and access management, providing the foundation for domain creation, user and group administration, and Group Policy enforcement in an enterprise environment.
+
+
 ### Ubuntu Server Deployment
 ![Ubuntu Server Install](screenshots/Ubuntu%20Server%20Install.png)
 
